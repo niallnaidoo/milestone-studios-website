@@ -1,5 +1,7 @@
 # Milestone Studios — website redesign
 
+**Live preview:** https://niallnaidoo.github.io/milestone-studios-website/ (GitHub Pages, rebuilds automatically about a minute after every push)
+
 A static site (plain HTML/CSS/JS, no build step). Open `index.html` in a browser, or run a local server:
 
 ```bash
@@ -44,3 +46,15 @@ Artists can be searched by name or genre, both on the home page and on the Artis
 3. **Replace sample artists** (marked "Sample") and the placeholder behind-the-scenes videos.
 4. **Confirm the label terms** in `label.html`: free to apply, artists keep masters/publishing, 12–24 months, closing date, intake year. These are draft copy.
 5. Optional: swap the home hero image for a looping studio video (instructions in a comment in `index.html`).
+
+## Publishing changes
+
+```bash
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+When you change `style.css`, `site.js` or `data.js`, bump the `?v=` number on their links in the HTML files so browsers fetch the new version.
+
+The preview pages carry `<meta name="robots" content="noindex, nofollow">` so the draft doesn't appear in Google. Remove that tag from every page when the site goes live on milestones.co.za.
