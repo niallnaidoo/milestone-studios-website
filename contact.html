@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Draft preview: remove this robots tag when the site goes live on milestones.co.za -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>Contact &amp; Bookings | Milestone Studios, Cape Town</title>
+  <meta name="description" content="Book studio time, request a tour, or get in touch with Milestone Studios at 21 Bloem Street, Cape Town.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=18">
+</head>
+<body data-page="contact">
+<main id="main">
+
+  <section class="title-marquee">
+    <div class="marquee__track">
+      <h1><span>Let's <em>talk</em></span><span aria-hidden="true">Let's <em>talk</em></span><span aria-hidden="true">Let's <em>talk</em></span><span aria-hidden="true">Let's <em>talk</em></span></h1>
+      <h1 aria-hidden="true"><span>Let's <em>talk</em></span><span>Let's <em>talk</em></span><span>Let's <em>talk</em></span><span>Let's <em>talk</em></span></h1>
+    </div>
+  </section>
+
+  <section class="section" id="enquire">
+    <div class="container split split--top">
+      <div>
+        <p class="lead" style="margin-top:0">Studio sessions, voice-over and ADR, scoring, tours or anything else. Tell us what you need and our bookings desk will reply within two working days.</p>
+        <div class="info-list" style="margin-top:28px">
+          <div><small>Phone</small><a href="tel:+27214246000">021 424 6000</a><span class="muted" style="font-size:14px">International +27 21 424 6000</span></div>
+          <div><small>Email</small><a href="mailto:info@milestones.co.za">info@milestones.co.za</a></div>
+          <div><small>Studio</small><p>21 Bloem Street, Cape Town 8001</p></div>
+          <div><small>Booking an artist?</small><a href="artists.html#book" class="link-arrow">Use the artist booking form <span>→</span></a></div>
+        </div>
+      </div>
+      <div class="form-card">
+        <form class="form" data-enquiry="Studio enquiry" data-success="Thanks! Our bookings desk will be in touch within two working days." novalidate>
+          <div class="field full"><label for="c-type">What can we help with?</label>
+            <select id="c-type" name="enquiry_type" required>
+              <option value="">Select…</option>
+              <option data-key="music">Music recording / mixing</option>
+              <option data-key="atmos">Dolby Atmos mix</option>
+              <option data-key="voice">Voice-over / ADR / Source-Connect</option>
+              <option data-key="film">Film &amp; TV post / scoring</option>
+              <option data-key="tour">Studio tour / visit</option>
+              <option data-key="label">First Milestone label</option>
+              <option data-key="schools">School partnership</option>
+              <option data-key="impact">Impact partnership / sponsorship</option>
+              <option data-key="other">Something else</option>
+            </select></div>
+          <div class="field"><label for="c-name">Name</label><input id="c-name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="c-org">Company <span class="opt">(optional)</span></label><input id="c-org" name="organisation" autocomplete="organization"></div>
+          <div class="field"><label for="c-email">Email</label><input id="c-email" type="email" name="email" required autocomplete="email"></div>
+          <div class="field"><label for="c-phone">Phone</label><input id="c-phone" type="tel" name="phone" autocomplete="tel"></div>
+          <div class="field"><label for="c-date">Preferred date <span class="opt">(optional)</span></label><input id="c-date" type="date" name="preferred_date"></div>
+          <div class="field"><label for="c-dur">Duration <span class="opt">(optional)</span></label>
+            <select id="c-dur" name="duration"><option value="">Select…</option><option>A few hours</option><option>Half day</option><option>Full day</option><option>Multiple days</option><option>Not sure</option></select></div>
+          <div class="field full"><label for="c-msg">Tell us about the project</label><textarea id="c-msg" name="message" required placeholder="Number of musicians, instruments, deliverables, deadlines…"></textarea></div>
+          <label class="check full"><input type="checkbox" name="consent" value="Yes" required> <span>I agree to Milestone Studios storing my details to respond to this enquiry.</span></label>
+          <div class="form__status" role="status" aria-live="polite"></div>
+          <div class="form__foot full">
+            <p class="form__note">Fully operational during load-shedding.</p>
+            <button class="btn btn--primary" type="submit">Send enquiry <span class="arrow">→</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="map reveal">
+        <iframe src="https://www.google.com/maps?q=21+Bloem+Street,+Cape+Town+8001&output=embed" loading="lazy" title="Map to Milestone Studios" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/data.js?v=18"></script>
+<script src="assets/js/site.js?v=18"></script>
+</body>
+</html>

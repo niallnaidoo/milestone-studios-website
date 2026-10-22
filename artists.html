@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Draft preview: remove this robots tag when the site goes live on milestones.co.za -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>Artists | First Milestone, Milestone Studios</title>
+  <meta name="description" content="Listen to the First Milestone roster and book emerging school and university artists for your event, venue or festival through Milestone Studios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=18">
+</head>
+<body data-page="artists">
+<main id="main">
+
+  <section class="title-marquee">
+    <div class="marquee__track">
+      <h1><span>Our <em>artists</em></span><span aria-hidden="true">Our <em>artists</em></span><span aria-hidden="true">Our <em>artists</em></span><span aria-hidden="true">Our <em>artists</em></span></h1>
+      <h1 aria-hidden="true"><span>Our <em>artists</em></span><span>Our <em>artists</em></span><span>Our <em>artists</em></span><span>Our <em>artists</em></span></h1>
+    </div>
+  </section>
+
+  <section class="section section--black" style="padding-top:clamp(48px,6vw,80px)">
+    <div class="container">
+      <div class="sec-title">
+        <span class="mark"></span>
+        <p>Emerging artists from South African schools and universities, developed at Milestone Studios. Press play on anyone below, then book them through us.</p>
+      </div>
+      <div class="listen listen--dark" id="roster" data-listen="campus"></div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section section--paper" id="book">
+    <div class="container split split--top">
+      <div>
+        <div class="sec-title sec-title--left"><span class="mark"></span><h2>Book <em>an artist</em></h2></div>
+        <p class="lead lead--dark" style="margin-top:0">Milestone Studios represents every First Milestone artist. Tell us about your event and we'll come back with availability and a quote within two working days.</p>
+        <div class="info-list" style="margin-top:28px">
+          <div><small>Bookings desk</small><a href="mailto:info@milestones.co.za?subject=Artist%20booking">info@milestones.co.za</a></div>
+          <div><small>Phone</small><a href="tel:+27214246000">021 424 6000</a></div>
+          <div><small>Good for</small><p>Campus events · Venues &amp; bars · Festivals · Weddings · Corporate · Brand activations · Session work</p></div>
+        </div>
+      </div>
+      <div class="form-card">
+        <form class="form" data-enquiry="Artist booking enquiry" data-success="Thanks! Our bookings desk will be in touch within two working days with availability and a quote." novalidate>
+          <div class="field full"><label for="b-artist">Artist</label><select id="b-artist" name="artist" required></select></div>
+          <div class="field"><label for="b-name">Your name</label><input id="b-name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="b-org">Company / venue <span class="opt">(optional)</span></label><input id="b-org" name="organisation" autocomplete="organization"></div>
+          <div class="field"><label for="b-email">Email</label><input id="b-email" type="email" name="email" required autocomplete="email"></div>
+          <div class="field"><label for="b-phone">Phone</label><input id="b-phone" type="tel" name="phone" required autocomplete="tel"></div>
+          <div class="field"><label for="b-type">Event type</label>
+            <select id="b-type" name="event_type" required><option value="">Select…</option><option>Campus event</option><option>Venue / club night</option><option>Festival</option><option>Wedding / private</option><option>Corporate</option><option>Brand activation</option><option>Session / feature</option><option>Other</option></select></div>
+          <div class="field"><label for="b-date">Event date</label><input id="b-date" type="date" name="event_date" required></div>
+          <div class="field"><label for="b-loc">Location / venue</label><input id="b-loc" name="location" placeholder="City and venue" required></div>
+          <div class="field"><label for="b-budget">Budget <span class="opt">(optional)</span></label>
+            <select id="b-budget" name="budget"><option value="">Select…</option><option>Under R5,000</option><option>R5,000 – R10,000</option><option>R10,000 – R25,000</option><option>R25,000+</option><option>Not sure yet</option></select></div>
+          <div class="field full"><label for="b-msg">Event details</label><textarea id="b-msg" name="details" placeholder="Set length, audience size, sound/backline available, anything else we should know" required></textarea></div>
+          <label class="check full"><input type="checkbox" name="consent" value="Yes" required> <span>I agree to Milestone Studios storing my details to respond to this enquiry.</span></label>
+          <div class="form__status" role="status" aria-live="polite"></div>
+          <div class="form__foot full">
+            <p class="form__note">No commitment. We'll confirm availability first.</p>
+            <button class="btn btn--primary" type="submit">Send <b>enquiry</b> <span class="arrow">→</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--black cta-band">
+    <div class="container">
+      <div class="sec-title" style="margin-bottom:28px"><span class="mark"></span><h2>Join <em>the roster</em></h2><p>At school or university and haven't signed a deal yet? Applications for the 2027 intake are open.</p></div>
+      <div class="actions"><a class="btn btn--primary" href="label.html#apply">Apply to <b>First Milestone</b> <span class="arrow">→</span></a></div>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/data.js?v=18"></script>
+<script src="assets/js/site.js?v=18"></script>
+</body>
+</html>
